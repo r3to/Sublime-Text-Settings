@@ -1,4 +1,5 @@
 Package*
-.sublime-keymap
-.cache
-.last-run
+*.sublime-keymap
+*.cache
+*.last-run
+
