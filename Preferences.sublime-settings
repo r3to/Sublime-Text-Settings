@@ -1,40 +1,49 @@
 {
 	// most of it copy pasted from here: http://dbader.org/blog/setting-up-sublime-text-for-python-development
-	
+
+	// Color Scheme
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
-	
-	//Font 
+	"theme": "Soda Dark.sublime-theme",
+
+	// Font
 	"font_face": "Source Code Pro",
 	"font_size": 13.0,
 
-	// Cursor style - no blinking and slightly wider than default
-	"caret_style":"solid",
-	"wide_caret":true,
+	// Cursor Style
+	"caret_style": "solid",
+	"wide_caret": true,
 
-	// Editor view look-and-feel
-	"draw_white_space":"all",
-	"fold_buttons":false,
-	"highlight_line": true,
+	// Behaviour
 	"auto_complete": true,
-	"show_minimap":false,
-
-	// Editor behavior
 	"scroll_past_end": false,
-	"highlight_modified_tabs": true,
 	"find_selected_text": true,
 
-	// Word wrapping - follow PEP 8 recommendations
-	"rulers": [72,79],
-	"word_wrap": true,
-	"wrap_width": 80,
+	// Visual Help
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"draw_white_space": "all",
+	"rulers":
+	[
+		72,
+		80
+	],
+	"show_minimap": false,
+	"word_wrap": false,
 
-	"folder_exclude_patterns": [
-		".svn", ".git", ".hg", "CVS", "_build", "dist", "build", "site"
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		"dist",
+		"build",
+		"site"
 	],
 
 	"ignored_packages":
 	[
 		"Vintage"
-	],
-	"theme": "Soda Dark.sublime-theme"
+	]
 }
