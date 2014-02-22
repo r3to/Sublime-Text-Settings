@@ -1,0 +1,6 @@
+{
+  // Boolean setting to auto-insert a semicolon after a ":" is typed.
+  "auto_insert_semicolon": false,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}

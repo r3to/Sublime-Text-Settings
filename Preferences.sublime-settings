@@ -1,35 +1,9 @@
 {
-	// most of it copy pasted from here: http://dbader.org/blog/setting-up-sublime-text-for-python-development
-
-	// Color Scheme
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
-	"theme": "Soda Dark.sublime-theme",
-
-	// Font
-	"font_face": "Source Code Pro",
-	"font_size": 13.0,
-
-	// Cursor Style
-	"caret_style": "solid",
-	"wide_caret": true,
-
-	// Behaviour
 	"auto_complete": true,
-	"scroll_past_end": false,
-	"find_selected_text": true,
-
-	// Visual Help
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 	"draw_white_space": "all",
-	"rulers":
-	[
-		72,
-		80
-	],
-	"show_minimap": false,
-	"word_wrap": false,
-
+	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -41,9 +15,24 @@
 		"build",
 		"site"
 	],
-
+	"font_face": "Source Code Pro",
+	"font_size": 13.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
-	]
+		"Vintage",
+		"ExtendScript",
+		"Xdebug Client"
+	],
+	"rulers":
+	[
+		72,
+		80
+	],
+	"scroll_past_end": false,
+	"show_minimap": false,
+	"theme": "itg.flat.dark.sublime-theme",
+	"wide_caret": true,
+	"word_wrap": true
 }
