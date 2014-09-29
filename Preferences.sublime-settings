@@ -21,13 +21,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"LESS",
 		"Vintage",
-		"ColorPick",
-		"JSLint",
 		"Phpcs",
 		"Theme - Soda",
-		"Theme - itg.flat",
-		"LESS"
+		"JSLint",
+		"ColorPick"
 	],
 	"rulers":
 	[
