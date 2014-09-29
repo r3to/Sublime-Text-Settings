@@ -22,8 +22,12 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"ExtendScript",
-		"Xdebug Client"
+		"ColorPick",
+		"JSLint",
+		"Phpcs",
+		"Theme - Soda",
+		"Theme - itg.flat",
+		"LESS"
 	],
 	"rulers":
 	[
@@ -32,7 +36,9 @@
 	],
 	"scroll_past_end": false,
 	"show_minimap": false,
+	"tab_size": 4,
 	"theme": "itg.flat.dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"wide_caret": true,
 	"word_wrap": true
 }
