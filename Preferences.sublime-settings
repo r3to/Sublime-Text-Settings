@@ -21,12 +21,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"LESS",
 		"Vintage",
-		"Phpcs",
-		"Theme - Soda",
-		"JSLint",
-		"ColorPick"
+		"Jedi - Python autocompletion",
+		"ExtendScript",
+		"Xdebug Client"
 	],
 	"rulers":
 	[
