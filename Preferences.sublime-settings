@@ -5,14 +5,12 @@
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "find_selected_text": true,
-  "folder_exclude_patterns": [".svn",
+  "folder_exclude_patterns": [
+    ".svn",
     ".git",
     ".hg",
     "CVS",
-    "_build",
-    "dist",
-    "build",
-    "site"
+    "_build"
   ],
   "font_face": "Source Code Pro",
   "font_size": 13.0,
@@ -20,7 +18,6 @@
   "highlight_modified_tabs": true,
   "ignored_packages": [
     "Vintage",
-    "Jedi - Python autocompletion",
     "ExtendScript",
     "Xdebug Client"
   ],
